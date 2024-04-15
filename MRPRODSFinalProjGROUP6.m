@@ -10,7 +10,7 @@ prob = optimproblem('Objective', (12 * x1) + (12 * x2) + (12 * x3) + (10 * x4), 
 
 prob.Constraints.c1 = x1 + x2 + x3 <= 25000;
 prob.Constraints.c2 = x1 + x2 >= 11000;
-prob.Constraints.c3 = x2 >= 3000;
+prob.Constraints.c3 = x2 >= 2100;
 prob.Constraints.c4 = x3 >= 3100;
 prob.Constraints.c5 = x4 >= 11000;
 
