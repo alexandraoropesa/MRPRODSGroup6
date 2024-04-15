@@ -4,7 +4,6 @@ x1 = optimvar('x1', 'Type', 'integer', 'LowerBound', 0, 'UpperBound',Inf);
 x2 = optimvar('x2', 'Type', 'integer', 'LowerBound', 0, 'UpperBound',Inf);
 x3 = optimvar('x3', 'Type', 'integer', 'LowerBound', 0, 'UpperBound',Inf);
 x4 = optimvar('x4', 'Type', 'integer', 'LowerBound', 0, 'UpperBound',Inf);
-x5 = optimvar('x5', 'Type', 'integer', 'LowerBound', 0, 'UpperBound',Inf);
 
 prob = optimproblem('Objective', (12 * x1) + (12 * x2) + (12 * x3) + (10 * x4), 'ObjectiveSense','min');
 
